@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Configurações
+SITE_URL="http://54.224.81.127/"
+LOG_FILE="/var/log/monitoramento.log"
+DISCORD_WEBHOOK="https://discord.com/api/webhooks/1339253507877765190/fFPvPnu7C0LhXZ2yqaMz6OHepRvnL7pA4LzFThAGOTAJURnxaFttRAIMKZ1ZPX2igP90"
+
+# Função para registrar logs
+log() {
+    local message="$1"
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $message" >> "$LOG_FILE"
+}
+
+# Função para enviar notificação no Discord
+notificar_discord() {
+    local message="$1"
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"$message\"}" "$DISCORD_WEBHOOK"
+}
+
+# Verifica se o site está disponível
+response=$(curl -o /dev/null -s -w "%{http_code}" "$SITE_URL")
+
+if [[ "$response" -eq 200 ]]; then
+    log "Site $SITE_URL está online. Código de resposta: $response"
+else
+    log "Site $SITE_URL está offline. Código de resposta: $response"
+    notificar_discord "🚨 ALERTA: O site $SITE_URL está offline! Código de resposta: $response"
+fi
+

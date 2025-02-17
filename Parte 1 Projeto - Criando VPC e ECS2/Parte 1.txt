@@ -1,0 +1,23 @@
+Criar uma VPC na AWS com:
+ 2 sub-redes públicas (para
+acesso externo).
+ 2 sub-redes privadas (para
+futuras expansões).
+ Uma Internet Gateway conectada
+às sub-redes públicas.
+
+
+(Cola a imagem 1 de VPC explicando o que foi feito)
+
+2. Criar uma instância EC2 na AWS:
+ - Escolher uma AMI baseada em
+Linux (Ubuntu/Debian/Amazon
+Linux).
+
+ (Mostrar foto de criando uma instancia com o Ubuntu)
+
+ - Instalar na sub-rede pública
+criada anteriormente
+
+ (Mostrar a subrede publica em print)
+

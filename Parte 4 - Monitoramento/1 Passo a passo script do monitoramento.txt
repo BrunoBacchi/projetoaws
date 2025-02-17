@@ -1,0 +1,45 @@
+Depois de logado na máquina pelo VSCODE
+
+dê os comandos: 
+
+- sudo su
+
+- cd /var/www/html 
+
+(dê um "ls" para para mostrar os arquivos)
+
+(crie um arquivo, eu dei o nome de monitor.sh, veja abaixo)
+
+- nano monitor.sh (vai criar o arquivo .sh e utilizar o editor nano)
+
+- cole o script do outro txt.
+
+
+
+
+
+- se observar bem, nas primeiras linhas está
+SITE_URL
+LOG_FILE
+DISCORD_WEBHOOK
+
+- o SITE_URL você deverá por o ip público que sua instancia EC2 tem.
+
+- o LOG_FILE você deverá criar um arquivo, no caso o meu eu criei como monitoramento.log, você deverá criar no mesmo caminho utilizando o nano, e deixo o arquivo novo em branco.
+
+- o DISCORD_WEBHOOK, é o aplicativo de mensagem que utilizei para notificar se o servidor está funcionando, você deverá criar um grupo, selecionar um canal de mensagem, em configurações > integrações > web hooks > e novo web hook > clicar no boot escolhido, "Copiar URL do webhook" e substituir a que está no script
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+1 Baixe o WSL e o Ubuntu mais recente pelo Microsoft Store.
+
+2 Baixe o Visual Studio Code e em extensões, baixe o remote WSL.
+
+3 Vá ao canto inferior esquerdo e clica no sinal de ><
+
+4 Marque o "Connect to WSL" e faça seu login
+
+5 Volte para o navegador, em EC2, Marque sua instancia em instancias, clique em Connect.
+
+6 Copie o exemplo, a última linha
+
+7 Crie um terminal no Visual Studio Code, e cole o exemplo, e logue na sua instancia.
+
+
+
+
+
+
+8 Entre no wsl para acessar o dektop para trazer a chave pem para o servidor.
+
+cd /mnt/c/Users/"Seu usuário"/Desktop/
+
+Move para o WSL
+
+mv chave3.pem /home/"Seu usuário"/
+
+Feito.
+
+
+
+
+

@@ -1,0 +1,26 @@
+Vamos utilizar o contrab pois ele será o responsável por executar e notificar repetidamente para nós
+
+
+siga o passo a passo
+
+- crontab -e
+
+- copie e cole este código abaixo no final da linha do crontab -e
+
+*/1 * * * * /var/www/html/monitor.sh
+
+(está monitor.sh porque eu utilizei ele)
+
+- salve o arquivo e volte para onde o monitor.sh está
+(cd /var/www/html/)
+
+- transforme o monitor.sh em executável
+(chmod +x monitor.sh)
+
+- execute o arquivo monitor.sh
+(./ monitor.sh)
+
+todos os preparativos para a automação estão feitos, para conferir, vá em /var/log/monitoramento.log e entre no arquivo usando o nano, e vejá se está notificando 
+
+caso queira ver de outra forma, entre no discord e no grupo onde você criou com o bot, e vejá se está notificando.
+
