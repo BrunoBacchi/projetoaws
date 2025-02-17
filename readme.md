@@ -1,4 +1,4 @@
-# Configuração de Servidor Web AWS
+# Configuração de Servidor Web AWS 🚀
 
 ## Etapa 1: Configuração do Ambiente
 
@@ -127,6 +127,4 @@ Se quiser conferir as notificações, acesse o Discord e verifique o canal confi
 ![Screenshot do Discord](Parte%204%20-%20Monitoramento/discord.PNG)
 
 ---
-
-Este guia cobre desde a configuração da infraestrutura na AWS até a instalação do servidor web e monitoramento. 🚀
 
