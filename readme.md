@@ -54,8 +54,8 @@ Para "Outbound Rules", adicione HTTP e HTTPS com "Anywhere".
 6. No terminal do VS Code, cole o comando e conecte-se à instância.
 
 ```bash
-cd /mnt/c/Users/"Seu usuário"/Desktop/
-mv chave3.pem /home/"Seu usuário"/
+cd /mnt/c/Users/"Seu usuário"/Desktop/ <-- Usuário da sua máquina/windows - seu ponto de montagem da máquina
+mv chave3.pem /home/"Seu usuário"/ <-- Usuário da WSL 
 ```
 
 ![Screenshot do acesso ao servidor](Parte%202%20-%20Configurando%20ambiente/1%20Print%201%20entrando%20no%20servidor.PNG)
