@@ -2,7 +2,7 @@
 
 ## Baixe pelo Microsoft Store
 
-### - Ubuntu
+### - Ubuntu última versão
 ### - WSL [Baixar o app na Microsoft Store](https://apps.microsoft.com/detail/9p9tqf7mrm4r?ocid=libraryshare&hl=en-US&gl=US)
 ### - Visual Studio Code no google 
 
