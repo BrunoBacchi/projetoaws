@@ -1,3 +1,15 @@
+# Aplicativos utilizados para a configuração 🚀
+
+## Baixe pelo Microsoft Store
+
+### - Ubuntu
+### - WSL [Baixar o app na Microsoft Store](https://apps.microsoft.com/detail/9p9tqf7mrm4r?ocid=libraryshare&hl=en-US&gl=US)
+### - Visual Studio Code no google 
+
+## Extensões necessárias no Visual Studio Code
+
+### - Dev container, Remote - SSH, Remote - Tunnels, WSL (Todos da microsoft) 
+
 # Configuração de Servidor Web AWS 🚀
 
 ## Etapa 1: Configuração do Ambiente
